@@ -1,8 +1,11 @@
+
+
 class Pessoa:
     def cumprimentar (self):
-      return    'Olá'
+      return 'Olá'
 
-    if __name__ == '__main__':
-        p = Pessoa()
-        print(Pessoa.cumprimentar(p))
-        print(p.cumprimentar())
+if __name__ == '__main__':
+    p = Pessoa()
+    print(Pessoa.cumprimentar(p))
+    print((p))
+    print(p.cumprimentar())
